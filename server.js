@@ -1,7 +1,7 @@
 
 var express = require('./config/express.js');
 var app = express();
-app.listen(3000);
+app.listen(8080);
 module.exports = app;
 
 console.log('server run at porst 3000');
