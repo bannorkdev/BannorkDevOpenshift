@@ -19,8 +19,10 @@
     <Content Include="test.txt" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Compile Include="app\controllers\index.controller.js" />
+    <Compile Include="app\routes\index.routes.js" />
+    <Compile Include="config\express.js" />
     <Compile Include="server.js" />
-    <Compile Include="tests\app_test.js" />
     <Content Include="views\index - Copy.html" />
     <Content Include="views\index.html" />
     <Content Include="openshift\pipeline\README.md" />
@@ -29,21 +31,23 @@
     <Content Include="openshift\templates\nodejs.json" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\controllers\" />
+    <Folder Include="app\models\" />
+    <Folder Include="app\views\" />
+    <Folder Include="app\routes\" />
+    <Folder Include="config\" />
+    <Folder Include="public\" />
     <Folder Include="openshift" />
     <Folder Include="openshift\pipeline" />
     <Folder Include="openshift\templates" />
-    <Folder Include="tests" />
-    <Folder Include="typings\" />
-    <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\chai-http\" />
-    <Folder Include="typings\globals\chai\" />
     <Folder Include="typings\globals\node\" />
     <Folder Include="typings\globals\object-assign\" />
     <Folder Include="views" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="typings\globals\chai-http\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\chai\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\object-assign\index.d.ts" />
     <TypeScriptCompile Include="typings\index.d.ts" />
