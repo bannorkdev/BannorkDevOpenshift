@@ -41,13 +41,17 @@
     <Folder Include="openshift" />
     <Folder Include="openshift\pipeline" />
     <Folder Include="openshift\templates" />
+    <Folder Include="typings\" />
+    <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\chai-http\" />
+    <Folder Include="typings\globals\chai\" />
     <Folder Include="typings\globals\node\" />
     <Folder Include="typings\globals\object-assign\" />
     <Folder Include="views" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="typings\globals\chai-http\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\chai\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\object-assign\index.d.ts" />
     <TypeScriptCompile Include="typings\index.d.ts" />

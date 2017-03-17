@@ -1,0 +1,2 @@
+D:\Work Document\BannorkDev\BannorkDevOpenshift\obj\Release\BannorkDEv1.njsprojResolveAssemblyReference.cache
+D:\Work Document\BannorkDev\BannorkDevOpenshift\bin\Microsoft.NodejsTools.WebRole.dll
